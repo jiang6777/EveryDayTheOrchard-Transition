@@ -1,5 +1,5 @@
 # EveryDayTheOrchard
-高仿天天果园，点击水果列表，将列表中的图片，从原位置动画过渡到详情页，从详情页返回到列表页，从banner过渡回到列表。
+![image](https://github.com/jiang6777/EveryDayTheOrchard-Transition/blob/master/1.gif )  
 高仿天天果园，点击水果列表，将列表中的图片，从原位置动画过渡到详情页，从详情页返回到列表页，从banner过渡回到列表。
 在Demo中，使用了SDAutolayout工具进行布局，确实方便，实现了类似于天天果园或者淘宝商品详情页的头视图往上滑动产生视觉差，网下滑动图
 片放大的效果。
