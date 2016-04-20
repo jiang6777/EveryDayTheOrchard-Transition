@@ -123,11 +123,12 @@ static CGFloat kLabelPaddingDist = 8.0f;
         imageView.contentMode = UIViewContentModeScaleAspectFill;
         imageView.clipsToBounds = true;
         imageView.image = [UIImage imageNamed:self.images[i]];
-        if (i == 0) {
-            self.imageView = imageView;
-        }
         [self.imageViews addObject:imageView];
         [self.imageScrollView addSubview:imageView];
+        if (i == 0) {
+            self.imageView = imageView;
+            self.currentShowImageView = imageView;
+        }
     }
     
     CGRect labelRect = self.imageScrollView.bounds;
