@@ -13,6 +13,22 @@
 		9F70FA891CC4B4A500475FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F70FA871CC4B4A500475FA9 /* Main.storyboard */; };
 		9F70FA8B1CC4B4A500475FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F70FA8A1CC4B4A500475FA9 /* Assets.xcassets */; };
 		9F70FA8E1CC4B4A500475FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F70FA8C1CC4B4A500475FA9 /* LaunchScreen.storyboard */; };
+		9F70FA971CC4B52200475FA9 /* FruitListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70FA961CC4B52200475FA9 /* FruitListTableViewController.m */; };
+		9F70FA9B1CC4B71000475FA9 /* FruitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70FA991CC4B71000475FA9 /* FruitCell.m */; };
+		9F70FA9C1CC4B71000475FA9 /* FruitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F70FA9A1CC4B71000475FA9 /* FruitCell.xib */; };
+		9F70FA9F1CC4BF0300475FA9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F70FA9E1CC4BF0300475FA9 /* 1.jpg */; };
+		9F70FAA11CC4BF0800475FA9 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F70FAA01CC4BF0800475FA9 /* 2.jpg */; };
+		9F70FAA31CC4BF0F00475FA9 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F70FAA21CC4BF0F00475FA9 /* 3.jpg */; };
+		9F70FAA51CC4BF1E00475FA9 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F70FAA41CC4BF1E00475FA9 /* 4.jpg */; };
+		9F70FAA71CC4BF2800475FA9 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F70FAA61CC4BF2800475FA9 /* 5.jpg */; };
+		9F70FAAA1CC4BF5100475FA9 /* FruitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70FAA91CC4BF5100475FA9 /* FruitModel.m */; };
+		9F70FAB71CC4D74D00475FA9 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70FAB41CC4D74D00475FA9 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		9F70FAB81CC4D74D00475FA9 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70FAB61CC4D74D00475FA9 /* UIView+SDAutoLayout.m */; };
+		9F70FABB1CC4DD8100475FA9 /* HJSMoveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70FABA1CC4DD8100475FA9 /* HJSMoveTransition.m */; };
+		9F7B97731CC5D85A00238574 /* HJSMoveInverseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B97721CC5D85A00238574 /* HJSMoveInverseTransition.m */; };
+		9F7B97801CC619D800238574 /* FruitDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B977F1CC619D800238574 /* FruitDetailViewController.m */; };
+		9F7B97831CC62F9500238574 /* ParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B97821CC62F9500238574 /* ParallaxHeaderView.m */; };
+		9F7B97861CC62FB100238574 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B97851CC62FB100238574 /* UIImage+ImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +42,32 @@
 		9F70FA8A1CC4B4A500475FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F70FA8D1CC4B4A500475FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F70FA8F1CC4B4A500475FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F70FA951CC4B52200475FA9 /* FruitListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitListTableViewController.h; sourceTree = "<group>"; };
+		9F70FA961CC4B52200475FA9 /* FruitListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitListTableViewController.m; sourceTree = "<group>"; };
+		9F70FA981CC4B71000475FA9 /* FruitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitCell.h; sourceTree = "<group>"; };
+		9F70FA991CC4B71000475FA9 /* FruitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitCell.m; sourceTree = "<group>"; };
+		9F70FA9A1CC4B71000475FA9 /* FruitCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FruitCell.xib; sourceTree = "<group>"; };
+		9F70FA9E1CC4BF0300475FA9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		9F70FAA01CC4BF0800475FA9 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		9F70FAA21CC4BF0F00475FA9 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		9F70FAA41CC4BF1E00475FA9 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		9F70FAA61CC4BF2800475FA9 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		9F70FAA81CC4BF5100475FA9 /* FruitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitModel.h; sourceTree = "<group>"; };
+		9F70FAA91CC4BF5100475FA9 /* FruitModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitModel.m; sourceTree = "<group>"; };
+		9F70FAB31CC4D74D00475FA9 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		9F70FAB41CC4D74D00475FA9 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		9F70FAB51CC4D74D00475FA9 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		9F70FAB61CC4D74D00475FA9 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		9F70FAB91CC4DD8100475FA9 /* HJSMoveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSMoveTransition.h; sourceTree = "<group>"; };
+		9F70FABA1CC4DD8100475FA9 /* HJSMoveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSMoveTransition.m; sourceTree = "<group>"; };
+		9F7B97711CC5D85A00238574 /* HJSMoveInverseTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSMoveInverseTransition.h; sourceTree = "<group>"; };
+		9F7B97721CC5D85A00238574 /* HJSMoveInverseTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSMoveInverseTransition.m; sourceTree = "<group>"; };
+		9F7B977E1CC619D800238574 /* FruitDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitDetailViewController.h; sourceTree = "<group>"; };
+		9F7B977F1CC619D800238574 /* FruitDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitDetailViewController.m; sourceTree = "<group>"; };
+		9F7B97811CC62F9500238574 /* ParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxHeaderView.h; sourceTree = "<group>"; };
+		9F7B97821CC62F9500238574 /* ParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxHeaderView.m; sourceTree = "<group>"; };
+		9F7B97841CC62FB100238574 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		9F7B97851CC62FB100238574 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +100,29 @@
 		9F70FA7D1CC4B4A500475FA9 /* EveryDayTheOrchard */ = {
 			isa = PBXGroup;
 			children = (
+				9F70FAB21CC4D74D00475FA9 /* SDAutoLayout */,
 				9F70FA811CC4B4A500475FA9 /* AppDelegate.h */,
 				9F70FA821CC4B4A500475FA9 /* AppDelegate.m */,
 				9F70FA841CC4B4A500475FA9 /* ViewController.h */,
 				9F70FA851CC4B4A500475FA9 /* ViewController.m */,
+				9F70FA951CC4B52200475FA9 /* FruitListTableViewController.h */,
+				9F70FA961CC4B52200475FA9 /* FruitListTableViewController.m */,
+				9F7B977E1CC619D800238574 /* FruitDetailViewController.h */,
+				9F7B977F1CC619D800238574 /* FruitDetailViewController.m */,
+				9F70FAB91CC4DD8100475FA9 /* HJSMoveTransition.h */,
+				9F70FABA1CC4DD8100475FA9 /* HJSMoveTransition.m */,
+				9F7B97711CC5D85A00238574 /* HJSMoveInverseTransition.h */,
+				9F7B97721CC5D85A00238574 /* HJSMoveInverseTransition.m */,
+				9F7B97811CC62F9500238574 /* ParallaxHeaderView.h */,
+				9F7B97821CC62F9500238574 /* ParallaxHeaderView.m */,
+				9F7B97841CC62FB100238574 /* UIImage+ImageEffects.h */,
+				9F7B97851CC62FB100238574 /* UIImage+ImageEffects.m */,
+				9F70FAA81CC4BF5100475FA9 /* FruitModel.h */,
+				9F70FAA91CC4BF5100475FA9 /* FruitModel.m */,
+				9F70FA981CC4B71000475FA9 /* FruitCell.h */,
+				9F70FA991CC4B71000475FA9 /* FruitCell.m */,
+				9F70FA9A1CC4B71000475FA9 /* FruitCell.xib */,
+				9F70FA9D1CC4BED100475FA9 /* Images */,
 				9F70FA871CC4B4A500475FA9 /* Main.storyboard */,
 				9F70FA8A1CC4B4A500475FA9 /* Assets.xcassets */,
 				9F70FA8C1CC4B4A500475FA9 /* LaunchScreen.storyboard */,
@@ -77,6 +138,29 @@
 				9F70FA7F1CC4B4A500475FA9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F70FA9D1CC4BED100475FA9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9F70FA9E1CC4BF0300475FA9 /* 1.jpg */,
+				9F70FAA01CC4BF0800475FA9 /* 2.jpg */,
+				9F70FAA21CC4BF0F00475FA9 /* 3.jpg */,
+				9F70FAA41CC4BF1E00475FA9 /* 4.jpg */,
+				9F70FAA61CC4BF2800475FA9 /* 5.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9F70FAB21CC4D74D00475FA9 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				9F70FAB31CC4D74D00475FA9 /* UITableView+SDAutoTableViewCellHeight.h */,
+				9F70FAB41CC4D74D00475FA9 /* UITableView+SDAutoTableViewCellHeight.m */,
+				9F70FAB51CC4D74D00475FA9 /* UIView+SDAutoLayout.h */,
+				9F70FAB61CC4D74D00475FA9 /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +194,7 @@
 				TargetAttributes = {
 					9F70FA7A1CC4B4A500475FA9 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FD4PJ7N7A9;
 					};
 				};
 			};
@@ -136,9 +221,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F70FAA11CC4BF0800475FA9 /* 2.jpg in Resources */,
+				9F70FA9C1CC4B71000475FA9 /* FruitCell.xib in Resources */,
+				9F70FAA51CC4BF1E00475FA9 /* 4.jpg in Resources */,
 				9F70FA8E1CC4B4A500475FA9 /* LaunchScreen.storyboard in Resources */,
 				9F70FA8B1CC4B4A500475FA9 /* Assets.xcassets in Resources */,
 				9F70FA891CC4B4A500475FA9 /* Main.storyboard in Resources */,
+				9F70FAA71CC4BF2800475FA9 /* 5.jpg in Resources */,
+				9F70FAA31CC4BF0F00475FA9 /* 3.jpg in Resources */,
+				9F70FA9F1CC4BF0300475FA9 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +240,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7B97831CC62F9500238574 /* ParallaxHeaderView.m in Sources */,
+				9F7B97861CC62FB100238574 /* UIImage+ImageEffects.m in Sources */,
 				9F70FA861CC4B4A500475FA9 /* ViewController.m in Sources */,
 				9F70FA831CC4B4A500475FA9 /* AppDelegate.m in Sources */,
+				9F7B97801CC619D800238574 /* FruitDetailViewController.m in Sources */,
+				9F70FA9B1CC4B71000475FA9 /* FruitCell.m in Sources */,
+				9F70FA971CC4B52200475FA9 /* FruitListTableViewController.m in Sources */,
+				9F70FAB81CC4D74D00475FA9 /* UIView+SDAutoLayout.m in Sources */,
+				9F70FAAA1CC4BF5100475FA9 /* FruitModel.m in Sources */,
+				9F70FABB1CC4DD8100475FA9 /* HJSMoveTransition.m in Sources */,
+				9F7B97731CC5D85A00238574 /* HJSMoveInverseTransition.m in Sources */,
 				9F70FA801CC4B4A500475FA9 /* main.m in Sources */,
+				9F70FAB71CC4D74D00475FA9 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +364,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = EveryDayTheOrchard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sand.EveryDayTheOrchard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +377,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = EveryDayTheOrchard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sand.EveryDayTheOrchard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +405,7 @@
 				9F70FA941CC4B4A500475FA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
