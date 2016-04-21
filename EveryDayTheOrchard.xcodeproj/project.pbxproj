@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F68ADDA1CC86106003A8694 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F68ADD91CC86106003A8694 /* 1.gif */; };
 		9F70FA801CC4B4A500475FA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70FA7F1CC4B4A500475FA9 /* main.m */; };
 		9F70FA831CC4B4A500475FA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70FA821CC4B4A500475FA9 /* AppDelegate.m */; };
 		9F70FA861CC4B4A500475FA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F70FA851CC4B4A500475FA9 /* ViewController.m */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F68ADD91CC86106003A8694 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 		9F70FA7B1CC4B4A500475FA9 /* EveryDayTheOrchard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveryDayTheOrchard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F70FA7F1CC4B4A500475FA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F70FA811CC4B4A500475FA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		9F70FA9D1CC4BED100475FA9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9F68ADD91CC86106003A8694 /* 1.gif */,
 				9F70FA9E1CC4BF0300475FA9 /* 1.jpg */,
 				9F70FAA01CC4BF0800475FA9 /* 2.jpg */,
 				9F70FAA21CC4BF0F00475FA9 /* 3.jpg */,
@@ -229,6 +232,7 @@
 				9F70FA891CC4B4A500475FA9 /* Main.storyboard in Resources */,
 				9F70FAA71CC4BF2800475FA9 /* 5.jpg in Resources */,
 				9F70FAA31CC4BF0F00475FA9 /* 3.jpg in Resources */,
+				9F68ADDA1CC86106003A8694 /* 1.gif in Resources */,
 				9F70FA9F1CC4BF0300475FA9 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
